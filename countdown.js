@@ -3,11 +3,22 @@
 *   @version 1.0
 *   @description handles counting down from today's date to a date in future
 *   @requires jQuery v1.3 or later
-*   @author Michael Turnwall - Digitaria, Inc.
-*	<p>Licensed under a MIT license:
-*	http://www.opensource.org/licenses/mit-license.php
-*	<br />
-*	Copyright (c) 2011 Digitaria, Inc. (http://digitaria.com/)</p>
+*   @author Michael Turnwall
+*   
+*   Copyright (c) 2011 Michael Turnwall
+*   Released under a GPLv3 license.
+*   <p>This program is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU General Public License as published by
+*   the Free Software Foundation, either version 3 of the License, or
+*   (at your option) any later version.</p>
+*   
+*   <p>This program is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU General Public License for more details.</p>
+*   
+*   <p>You should have received a copy of the GNU General Public License
+*   along with this program.  If not, see <http://www.gnu.org/licenses/>.</p>
 */
 var Countdown = /** @lends Countdown.prototype */ {
     /** 
