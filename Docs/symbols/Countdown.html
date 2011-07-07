@@ -1,0 +1,568 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8"></meta>
+		<meta name="generator" content="JsDoc Toolkit"></meta>
+		<title>Countdown | JsDoc Reference</title>
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"></meta>
+		<meta name="mobileoptimized" content="0"></meta>
+	
+		<link rel="stylesheet" href="../css/all.css" media="all"></link>
+		<link rel="stylesheet" href="../css/handheld.css" media="only screen and (max-width: 660px)"></link>
+		<link rel="stylesheet" href="../css/handheld.css" media="handheld"></link>
+		<link rel="stylesheet" href="../css/screen.css" media="screen and (min-width: 661px)"></link>
+
+		<script src="../javascript/all.js"></script>
+		<!--[if lt IE 9]>
+			<script src="../javascript/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+<div class="index">
+	<div class="menu">
+		<div class="indexLinks">
+			<a href="../index.html">Classes</a>
+			<a href="../files.html">Files</a>
+		</div>
+	
+		<h2 class="heading1">Classes</h2>
+		
+		<input type="text" name="classFilter" class="classFilter" id="ClassFilter" placeholder="Filter"></input>
+		
+		<nav>
+			<ul class="classList" id="ClassList">
+				
+					<li><a href="../symbols/_global_.html">_global_</a></li>
+				
+					<li><a href="../symbols/Countdown.html">Countdown</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	<div class="fineprint" style="clear:both">
+		
+		Documentation generator: <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0<br />
+		Template: <a href="http://www.thebrightlines.com/2010/05/06/new-template-for-jsdoctoolkit-codeview/" target="_blank">Codeview</a> 1.2<br />
+		Generated on: 2011-6-6 17:38
+	</div>
+</div>
+
+<div class="index indexStatic"></div>
+
+<div class="content">
+	<div class="innerContent">
+		<h1 class="classTitle">
+			
+			Class <span>Countdown</span>
+		</h1>
+		
+		<div class="intro">
+			<p class="description summary">
+				Countdown Object
+			</p>
+				
+			
+				<ul class="summary">
+					
+						<li>Version 1.2</li>
+					
+					
+					
+						<li>Defined in: <a href="../symbols/src/countdown.js.html">countdown.js</a></li>
+					
+						
+				</ul>
+			
+		</div>
+		
+		
+			<div class="props">
+				<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class Countdown.">
+					<caption class="sectionTitle">Class Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Constructor Attributes</th>
+							<th scope="col">Constructor Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription" >
+								<div class="fixedFont">
+									<b><a href="../symbols/Countdown.html#constructor">Countdown</a></b>()
+								</div>
+								<div class="description">handles counting down from today's date to a date in future</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		
+		
+		
+<!--
+#### METHODS SUMMARY
+-->
+		
+			
+			
+			<div class="props">
+				<h2 class="sectionTitle">Method Summary</h2>
+				
+				
+					<table class="summaryTable" id="MethodsList" cellspacing="0" summary="A summary of the methods documented in the class Countdown.">
+						<thead>
+							<tr>
+								<th scope="col">Method Attributes</th>
+								<th scope="col">Method Name and Description</th>
+							</tr>
+						</thead>
+						
+						<tbody>
+							
+							
+								<tr
+									 class='item0'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/Countdown.html#countTime">countTime</a></b>()
+										</div>
+										<div class="description">take current time value and deduct a second</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item1'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/Countdown.html#findTimezone">findTimezone</a></b>()
+										</div>
+										<div class="description">Find the current timezone the user's computer is in and then move it back to PDT</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item2'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/Countdown.html#getTimeDifference">getTimeDifference</a></b>(eventDate)
+										</div>
+										<div class="description">find the difference in days, hours, mins, seconds between two dates.</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item3'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/Countdown.html#init">init</a></b>(opts)
+										</div>
+										<div class="description">initializes the object</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item4'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/Countdown.html#startTimeCounter">startTimeCounter</a></b>(eventDate)
+										</div>
+										<div class="description">handle just countdowning hours and minutes</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item5'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/Countdown.html#writeTime">writeTime</a></b>(values)
+										</div>
+										<div class="description">write the new time values into the page</div>
+									</td>
+								</tr>
+							
+						</tbody>
+					</table>
+				
+			
+				
+			</div>
+		
+		
+<!--
+#### EVENTS SUMMARY
+-->
+		
+<!--
+#### CONSTRUCTOR DETAILS
+-->
+		
+			<div class="details props">
+				<div class="innerProps">
+					<h2 class="sectionTitle" id="constructor">
+						Class Detail
+					</h2>
+					
+					<div class="fixedFont">
+						<b>Countdown</b>()
+					</div>
+					
+					<div class="description">
+						handles counting down from today's date to a date in future
+						<br /><i>Author: </i>Michael Turnwall
+  
+  <p>Copyright (c) 2011 Michael Turnwall</p>
+  <p>Released under a GPLv3 license.</p>
+  <p>This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.</p>
+  
+  <p>This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.</p>
+  
+  <p>You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.</p>.
+					</div>
+					
+					
+				
+					
+					
+					
+						<dl class="detailList nomargin">
+							
+							
+							
+							
+							
+							
+							
+							
+							
+								<dt class="heading">Requires:</dt>
+								
+									<dd>jQuery v1.3 or later</dd>
+								
+							
+							
+							
+						</dl>
+					
+				</div>
+			</div>
+		
+<!--
+#### FIELD DETAILS
+-->
+		
+<!--
+#### METHOD DETAILS
+-->		
+		
+			<div class="details props">
+				<div class="innerProps">
+					<h2 class="sectionTitle">
+						Method Detail
+					</h2>
+					
+					<ul class="methodDetail" id="MethodDetail">
+						
+						
+							<li 
+								 class='item0'
+							>
+								<div class="fixedFont heading" id="countTime">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>countTime</b>()
+								</div>
+								
+								<div class="description">
+									take current time value and deduct a second
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item1'
+							>
+								<div class="fixedFont heading" id="findTimezone">
+									<span class='lighter'>
+									
+									</span>
+									
+									<span class="light">{Integer}</span>
+									
+									<b>findTimezone</b>()
+								</div>
+								
+								<div class="description">
+									Find the current timezone the user's computer is in and then move it back to PDT
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+								
+								
+									<dl class="detailList nomargin">
+									
+										
+										
+										
+										
+										
+										
+										
+											<dt class="heading">Returns:</dt>
+											
+												<dd><span class="light fixedFont">{Integer}</span> the total difference between current timezone and PDT in milliseconds</dd>
+											
+										
+										
+										
+										
+										
+									
+									</dl>
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item2'
+							>
+								<div class="fixedFont heading" id="getTimeDifference">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>getTimeDifference</b>(eventDate)
+								</div>
+								
+								<div class="description">
+									find the difference in days, hours, mins, seconds between two dates.
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<span class="light fixedFont">{Array}</span> <b>eventDate</b>
+												
+											</dt>
+											<dd>the date counting down to, [yyyy, m, d]
+  the month is zero based so January is 0, December is 11.</dd>
+										
+									</dl>
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item3'
+							>
+								<div class="fixedFont heading" id="init">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>init</b>(opts)
+								</div>
+								
+								<div class="description">
+									initializes the object
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<b>opts</b>
+												
+											</dt>
+											<dd>options for the object to initialize with</dd>
+										
+											<dt>
+												<span class="light fixedFont">{Array}</span> <b>opts.eventDate</b>
+												
+											</dt>
+											<dd>the date counting down to, [yyyy, m, d, hh, mm, ss]
+      the month is zero based so January is 0, December is 11.</dd>
+										
+											<dt>
+												<span class="light fixedFont">{Boolean}</span> <b>opts.levelTimer</b>
+												
+											</dt>
+											<dd>true if the timer is used for a level timer instead of
+             an upcoming event timer</dd>
+										
+											<dt>
+												<span class="light fixedFont">{Boolean}</span> <b>opts.dst</b>
+												
+											</dt>
+											<dd>whether or not daylight savings is currently in affect</dd>
+										
+											<dt>
+												<span class="light fixedFont">{String}</span> <b>opts.status</b>
+												
+											</dt>
+											<dd>a message to be displayed</dd>
+										
+									</dl>
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item4'
+							>
+								<div class="fixedFont heading" id="startTimeCounter">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>startTimeCounter</b>(eventDate)
+								</div>
+								
+								<div class="description">
+									handle just countdowning hours and minutes
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<b>eventDate</b>
+												
+											</dt>
+											<dd></dd>
+										
+									</dl>
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item5'
+							>
+								<div class="fixedFont heading" id="writeTime">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>writeTime</b>(values)
+								</div>
+								
+								<div class="description">
+									write the new time values into the page
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<b>values</b>
+												
+											</dt>
+											<dd></dd>
+										
+									</dl>
+								
+								
+								
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+		
+<!--
+#### EVENT DETAILS
+-->		
+		
+	</div>
+</div>
+		<script type="text/javascript">
+			wbos.CssTools.MediaQueryFallBack.LoadCss('../css/screen.css', '../css/handheld.css', 660)
+			codeview.classFilter.Init()
+		</script>
+	</body>
+</html>
+
